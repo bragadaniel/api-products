@@ -33,4 +33,5 @@ def bad_request(e):
     message=e
   ), 400)
 
-app.run(port=8000)
+if __name__ == '__main__':
+  app.run(port=8000)
