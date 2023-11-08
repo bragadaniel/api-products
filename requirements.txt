@@ -1,1 +1,8 @@
+# This file is used by pip to install required python packages
+# Usage: pip install -r requirements.txt
+
+# Flask Framework
 Flask==3.0.0
+
+# marshmallow
+marshmallow==3.20.1
