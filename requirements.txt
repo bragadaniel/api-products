@@ -5,4 +5,7 @@
 Flask==3.0.0
 
 # marshmallow
-marshmallow==3.20.1
+Marshmallow==3.20.1
+
+# env
+python-dotenv

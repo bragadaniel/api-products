@@ -3,13 +3,13 @@ Cars = [
         'id': '4864',
         'model': 'D250 Pickup 2WD',
         'make': 'Dodge',
-        'year': 1988   
-     },
+        'year': 1988
+    },
     {
         'id': '487',
         'model': 'Mark VII',
         'make': 'Lincoln',
-        'year': 1985    
+        'year': 1985
     },
     {
         'id': '4874',
