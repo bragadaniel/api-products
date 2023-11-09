@@ -17,5 +17,5 @@
 ### Start
 
 ```bash
- $ python -m flask --app main run --port=8000
+ $ python -m flask --app src/main run --port=8000
 ```
