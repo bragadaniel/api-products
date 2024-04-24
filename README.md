@@ -2,10 +2,14 @@
 
 ### Config virtual env
 
-```bash
- $ python -m venv .my_venv
- $ source .my_venv/bin/activate
+### Install pyenv
+See guide [pyenv](https://github.com/pyenv/pyenv)
 
+### Create environment 
+
+```bash
+ $ pyenv install 3.12.2
+ $ pyenv virtualenv 3.12.2 api-products-3.12.2
 ```
 
 ### Install dependencies
@@ -13,6 +17,15 @@
 ```bash
  $ pip install -r requirements.txt
 ```
+### config ENVS
+- Create file .env in root, and set evns
+
+| KEY             | VALUE            |
+|-----------------|------------------|
+| MONGO_DB_URI    | YOUR_URI_MONGO   |
+| DB_NAME         | YOUR_DB_NAME     |
+| COLLECTION_NAME | COLLECTION_USERS |
+
 
 ### Start
 
